@@ -16,10 +16,10 @@ order_again = 'y'
 while order_again != 'n':
 
     #Input what menu to output
-    choose_menu = input("What menu do you order [f/d] : ")
+    choose_menu = input("What menu do you order [food/drink] : ")
 
     #Condition if user want to order food
-    if choose_menu.lower() == 'f':
+    if choose_menu.lower() == "food":
         
         #Output for list of food
         print("============= CASHIER =============")
@@ -56,7 +56,7 @@ while order_again != 'n':
         order_again = input("Do you want to order again [y/n] : ")
 
     #Condition if user want to order drink
-    elif choose_menu.lower() == 'd':
+    elif choose_menu.lower() == "drink":
 
         #Output for list of drink
         print("============= CASHIER =============")
