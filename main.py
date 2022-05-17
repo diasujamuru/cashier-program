@@ -1,4 +1,5 @@
 #import module & library
+#tes komen
 import module as data
 import pandas as pd
 
